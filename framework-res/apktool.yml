@@ -1,0 +1,14 @@
+version: 1.5.2
+apkFileName: framework-res.apk
+isFrameworkApk: true
+usesFramework:
+  ids:
+  - 3
+  tag: vendor_S920_42
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: android
+  orig_package: android
+compressionType: false

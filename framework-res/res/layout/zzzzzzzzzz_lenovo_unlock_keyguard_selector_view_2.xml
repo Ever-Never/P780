@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.LenovoUnlockKeyguardSelectorView2 android:id="@id/keyguard_selector_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.policy.impl.keyguard.EmergencyButton android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.android.internal.policy.impl.keyguard.MediatekCarrierText android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</com.android.internal.policy.impl.keyguard.LenovoUnlockKeyguardSelectorView2>

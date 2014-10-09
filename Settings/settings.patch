@@ -1,0 +1,19 @@
+--- Settingbau/res/xml/settings_headers.xml	2014-09-28 09:46:08.735477248 +0800
++++ Settings/res/xml/settings_headers.xml	2014-09-13 17:24:06.034505227 +0800
+@@ -34,6 +34,9 @@
+     <header android:icon="@drawable/ic_settings_backup" android:id="@id/privacy_settings" android:title="@string/backup_section_title">
+         <intent android:targetPackage="com.baidu.backuprestore" android:action="android.intent.action.MAIN" android:targetClass="com.baidu.backuprestore.UI.BackupRestoreActivity" />
+     </header>
++     <header android:icon="@drawable/orignal"  android:title="原厂设置">
++        <intent android:targetPackage="cn.edu.ncwu.www" android:action="android.intent.action.MAIN" android:targetClass="cn.edu.ncwu.www.MPreferenceActivity" />
++    </header>
+     <header android:id="@id/account_settings" android:title="@string/account_settings" />
+     <header android:icon="@drawable/ic_settings_sync" android:id="@id/account_add" android:title="@string/add_account_label">
+         <intent android:action="android.settings.ADD_ACCOUNT_SETTINGS" />
+@@ -47,4 +50,4 @@
+         <intent android:targetPackage="com.baidu.android.ota" android:action="android.intent.action.MAIN" android:targetClass="com.baidu.android.ota.ui.OTALauncherActivity" />
+     </header>
+     <header android:icon="@drawable/ic_settings_about" android:id="@id/about_settings" android:title="@string/about_settings" android:fragment="com.android.settings.DeviceInfoSettings" />
+-</preference-headers>
+\ 文件尾没有 newline 字符
++</preference-headers>

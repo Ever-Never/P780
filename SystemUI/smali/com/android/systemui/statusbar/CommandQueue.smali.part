@@ -1,0 +1,5 @@
+.method public  enableTransparent(ZLjava/lang/String;)V
+  .locals 0
+  .prologue
+  return-void
+.end method
